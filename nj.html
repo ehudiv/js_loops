@@ -1,0 +1,53 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<script>
+			//targil 1//
+			var k = 0;
+			var x;
+			var i = 120;
+			for ( i = 120; i < 141; i++) {
+				console.log(i);
+			}
+
+			//targil 2//
+
+			for ( i = 0; i < 5; i++) {
+
+				for ( j = 0; j <= i; j++) {
+					console.log("*");
+
+				}
+				console.log("\n");
+
+			}
+			//targil 3//
+			var student = [{
+				"name" : "ehud",
+				"age" : "28",
+				"hight" : "190",
+
+			}, {
+				"name" : "adiel",
+				"age" : "22",
+				"hight" : "180"
+			}, {
+				"name" : "timor",
+				"age" : 25,
+				"hight" : 188
+			}];
+
+			for (var i = 0; i < student.length; i++) {
+				console.log(student[i].hight);
+			};
+			//targil 4//
+			for (var i = 0; i < student.length; i++) {
+				student[i].hight = "175";
+				console.log(student[i].hight);
+
+			};
+		</script>
+	</body>
+</html>
